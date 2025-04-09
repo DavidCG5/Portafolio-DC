@@ -1,9 +1,17 @@
 import AboutCard from '@/components/AboutCart'
+import ExperienceCard from '@/components/ExperienceCard'
+import TechnologiesSection from '@/components/TechnologiesSection'
+import WorkStyleSection from '@/components/WorkStyleSection'
+
 
 export default function Home() {
   return (
-    <div className="min-h-screen pt-28"> {/* pt-28 para dejar espacio al navbar */}
+    <main className="flex flex-col items-center gap-10 pt-0 px-0">
       <AboutCard />
-    </div>
+      <TechnologiesSection />
+      <ExperienceCard />
+      <WorkStyleSection />
+      <br />
+    </main>
   )
 }

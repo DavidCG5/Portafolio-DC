@@ -8,7 +8,7 @@ export default function AboutCard() {
   return (
     <section
       id="sobre-mi"
-      className="w-full flex justify-center items-center mt-40 px-4"
+      className="w-full flex justify-center items-center mt-30 px-4"
     >
       <div className="w-[90%] max-w-4xl bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-[0_0_60px_rgba(6,2,255,0.2)] p-8 text-white space-y-6 flex flex-col md:flex-row items-center gap-8">
         {/* Imagen */}
@@ -30,24 +30,24 @@ export default function AboutCard() {
           </div>
         </div>
 
-        {/* Texto */}
+      
         <div className="flex flex-col gap-4">
           <div>
             <h2 className="text-3xl font-bold text-white mb-2">¡Hola! Soy <span className="text-blue-400">David</span>!</h2>
             <p className="text-white/80 leading-relaxed">
-              Desarrollador front-end apasionado por crear experiencias digitales modernas e intuitivas.
+              Desarrollador de software apasionado por crear experiencias digitales modernas e intuitivas.
             </p>
             <p className="text-white/70 leading-relaxed mt-2">
-              Tengo experiencia en <span className="text-blue-300">React, Next.js y TailwindCSS</span>. Me encanta aprender tecnologías nuevas, mejorar interfaces y desarrollar componentes reutilizables.
+                Participando en proyectos como <span className="text-blue-300">Legal AI</span>. Me encanta aprender tecnologías nuevas, mejorar interfaces y desarrollar componentes reutilizables.
             </p>
             <p className="text-white/60 leading-relaxed mt-2">
               En mis tiempos libres disfruto de los videojuegos, el gimnasio y la música. Busco siempre crecer como profesional y persona.
             </p>
           </div>
 
-          {/* Botón de descarga */}
+         
           <a
-            href="/Curriculum_DavidCortes.pdf" // Asegúrate de colocar tu CV en la carpeta /public con este nombre
+            href="/Curriculum_DavidCortes.pdf" 
             download
             className="mt-4 inline-block w-fit px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-full transition shadow-md"
           >

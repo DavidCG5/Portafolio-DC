@@ -1,10 +1,11 @@
-// app/layout.tsx
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import CustomCursor from '@/components/CustomCursor'
 
 import FooterGlow from '@/components/FooterGlow'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,16 +21,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es">
-        <CustomCursor />
-      <body className={`${inter.className} bg-black text-white`} >
-        
-        <FooterGlow />
-        <Navbar />
+  <html lang="es">
+    <body className={`${inter.className} bg-black text-white`} >
+      <CustomCursor />
+      <FooterGlow />
+      <Navbar />
         <main>
           {children}  
-       </main>
-      </body>
-    </html>
+        </main>
+    </body>
+  </html>
   )
 }
