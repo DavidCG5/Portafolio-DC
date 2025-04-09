@@ -7,7 +7,7 @@ export default function SocialButtons() {
   return (
     <div className="flex gap-4 mt-6">
       <a
-        href="https://github.com/tuusuario"
+        href="https://github.com/DavidCG5"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white/80 hover:text-blue-400 text-2xl transition"
@@ -17,7 +17,7 @@ export default function SocialButtons() {
       </a>
 
       <a
-        href="https://linkedin.com/in/tuusuario"
+        href="https://linkedin.com/in/david-felipe-cortes-cortes-a1aab1231/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white/80 hover:text-blue-400 text-2xl transition"
@@ -27,7 +27,7 @@ export default function SocialButtons() {
       </a>
 
       <a
-        href="mailto:tuemail@gmail.com"
+        href="mailto:dc317393@gmail.com"
         className="text-white/80 hover:text-blue-400 text-2xl transition"
         aria-label="Correo"
       >
@@ -35,7 +35,7 @@ export default function SocialButtons() {
       </a>
 
       <a
-        href="https://wa.me/57xxxxxxxxxx"
+        href="https://wa.me/573016661724"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white/80 hover:text-blue-400 text-2xl transition"
