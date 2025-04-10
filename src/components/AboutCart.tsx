@@ -11,7 +11,7 @@ export default function AboutCard() {
       className="w-full flex justify-center items-center mt-30 px-4"
     >
       <div className="w-[90%] max-w-4xl bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-[0_0_60px_rgba(6,2,255,0.2)] p-8 text-white space-y-6 flex flex-col md:flex-row items-center gap-8">
-        {/* Imagen */}
+    
         <div className="flex flex-col items-start gap-2 ">
           <Image
             src="/DavidPerfil.jpeg"

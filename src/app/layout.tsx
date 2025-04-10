@@ -13,8 +13,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Portafolio de David',
   description: 'Desarrollador Web - React, Next.js, Tailwind',
+  icons: {
+    icon: '/DavidCortesLogo.png',
+  }
 }
-
 export default function RootLayout({
   children,
 }: {
