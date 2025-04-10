@@ -14,13 +14,6 @@ export default function Navbar() {
         />
         <span className="text-lg font-semibold text-white-400">David Cortes</span>
       </div>
-
-      <ul className="flex gap-6 text-sm font-medium text-white/80">
-        <li><Link href="/" className="hover:text-blue-300 transition">Inicio</Link></li>
-        <li><Link href="#proyectos" className="hover:text-blue-300 transition">Proyectos</Link></li>
-        <li><Link href="#habilidades" className="hover:text-blue-300 transition">Habilidades</Link></li>
-        <li><Link href="#contacto" className="hover:text-blue-300 transition">Contacto</Link></li>
-      </ul>
     </nav>
   )
 }
