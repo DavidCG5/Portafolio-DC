@@ -3,46 +3,68 @@
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 
-export default function SocialButtons() {
+interface SocialButtonsProps {
+  GitHub?: boolean
+  LinkedIn?: boolean
+  Email?: boolean
+  WhatsApp?: boolean
+}
+
+export default function SocialButtons({
+  GitHub = true,
+  LinkedIn = true,
+  Email = true,
+  WhatsApp = true,
+}: SocialButtonsProps) {
   return (
-    <div className="flex gap-4 mt-6">
-      <a
+    <div className="flex gap-4 ">
+
+      {GitHub && (
+        <a
         href="https://github.com/DavidCG5"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white/80 hover:text-blue-400 text-2xl transition"
         aria-label="GitHub"
-      >
+        >
         <FaGithub />
-      </a>
-
-      <a
+        </a>
+      )}
+      
+      {LinkedIn && (
+        <a
         href="https://linkedin.com/in/david-felipe-cortes-cortes-a1aab1231/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white/80 hover:text-blue-400 text-2xl transition"
         aria-label="LinkedIn"
-      >
+        >
         <FaLinkedin />
-      </a>
+        </a>
+      )}
 
-      <a
+      {Email && (
+        <a
         href="mailto:dc317393@gmail.com"
         className="text-white/80 hover:text-blue-400 text-2xl transition"
         aria-label="Correo"
-      >
+        >
         <MdEmail />
-      </a>
+        </a>
+      )}
 
-      <a
-        href="https://wa.me/573016661724"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-white/80 hover:text-blue-400 text-2xl transition"
-        aria-label="WhatsApp"
-      >
-        <FaWhatsapp />
-      </a>
+      {WhatsApp && (
+        <a
+          href="https://wa.me/573016661724"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/80 hover:text-blue-400 text-2xl transition"
+          aria-label="WhatsApp"
+        >
+          <FaWhatsapp />
+        </a>
+      )}
+
     </div>
   )
 }

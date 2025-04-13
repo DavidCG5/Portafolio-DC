@@ -5,11 +5,11 @@ import GeneralCard from './GeneralCard'
 
 export default function WorkStyleSection() {
 return (
-    <section id="como-trabajo" className="w-full text-white">
-    <div className="w-full max-w-5xl px-4 mx-auto flex flex-col items-center space-y-8">
-      <h2 className="text-3xl font-bold text-blue-400">¿Cómo trabajo?</h2>
+    <section id="como-trabajo" className="w-full flex justify-center items-center px-4">
+    <div className=" max-w-4xl  space-y-8">
+      <h2 className="text-3xl font-bold text-blue-400 text-center">¿Cómo trabajo?</h2>
   
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <GeneralCard
           icon={<Laptop />}
           title="De la Idea al Producto Final"
