@@ -39,8 +39,8 @@ export default function Navbar() {
         {/* Navegación - solo en desktop */}
         <ul className="hidden sm:flex gap-6 text-md font-medium text-white/80">
           <li><Link href="/" className="hover:text-blue-300 transition">Inicio</Link></li>
-          <li><Link href="#portafolio" className="hover:text-blue-300 transition">Portafolio</Link></li>
-          <li><Link href="#sobre-mi" className="hover:text-blue-300 transition">Sobre Mi</Link></li>
+          <li><Link href="/portafolio" className="hover:text-blue-300 transition">Portafolio</Link></li>
+          <li><Link href="/sobremi" className="hover:text-blue-300 transition">Sobre Mi</Link></li>
         </ul>
 
         {/* Botones sociales */}
@@ -65,8 +65,8 @@ export default function Navbar() {
 
           <div className="flex flex-col items-center space-y-6 text-xl font-semibold">
             <Link href="/" onClick={() => setMenuOpen(false)} className="text-blue-400">Inicio</Link>
-            <Link href="#portafolio" onClick={() => setMenuOpen(false)}>Portafolio</Link>
-            <Link href="#sobre-mi" onClick={() => setMenuOpen(false)}>Sobre Mi</Link>
+            <Link href="/portafolio" onClick={() => setMenuOpen(false)}>Portafolio</Link>
+            <Link href="/sobremi" onClick={() => setMenuOpen(false)}>Sobre Mi</Link>
           </div>
 
           <div className="mt-10">
