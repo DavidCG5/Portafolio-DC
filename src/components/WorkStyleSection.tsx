@@ -5,7 +5,7 @@ import GeneralCard from './GeneralCard'
 
 export default function WorkStyleSection() {
 return (
-    <section id="como-trabajo" className="w-full flex justify-center items-center px-4">
+    <section id="como-trabajo" className="w-[90%] flex justify-center items-center px-4">
     <div className=" max-w-4xl  space-y-8">
       <h2 className="text-3xl font-bold text-blue-400 text-center">¿Cómo trabajo?</h2>
   
