@@ -1,17 +1,35 @@
-'use client'
+"use client";
 
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaGitAlt,  } from 'react-icons/fa'
-import { SiTailwindcss, SiNextdotjs, SiTypescript, SiVuedotjs, SiBootstrap } from 'react-icons/si'
-
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaNodeJs,
+  FaGitAlt,
+} from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
+  SiVuedotjs,
+  SiBootstrap,
+} from "react-icons/si";
 
 export default function TechnologiesSection() {
   return (
-    <section id="tecnologias" className="w-full flex justify-center items-center px-4">
+    <section
+      id="tecnologias"
+      className="w-full flex justify-center items-center px-4"
+    >
       <div className="w-[90%] max-w-4xl bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-[0_0_60px_rgba(6,2,255,0.1)] p-8 text-white space-y-6">
-        <h2 className="text-3xl font-bold text-blue-400">Tecnologías utilizadas y estudiadas</h2>
+        <h2 className="text-3xl font-bold text-blue-400">
+          Tecnologías utilizadas y estudiadas
+        </h2>
 
         <p className="text-white/70">
-          A lo largo de mi formación y proyectos personales he trabajado con diversas tecnologías del ecosistema web moderno:
+          A lo largo de mi formación y proyectos personales he trabajado con
+          diversas tecnologías del ecosistema web moderno:
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-6">
@@ -60,8 +78,7 @@ export default function TechnologiesSection() {
             <span>Bootstrap</span>
           </div>
         </div>
-       
       </div>
     </section>
-  )
+  );
 }

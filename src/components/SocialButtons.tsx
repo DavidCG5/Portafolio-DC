@@ -1,13 +1,13 @@
-'use client'
+"use client";
 
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
-import { MdEmail } from 'react-icons/md'
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 interface SocialButtonsProps {
-  GitHub?: boolean
-  LinkedIn?: boolean
-  Email?: boolean
-  WhatsApp?: boolean
+  GitHub?: boolean;
+  LinkedIn?: boolean;
+  Email?: boolean;
+  WhatsApp?: boolean;
 }
 
 export default function SocialButtons({
@@ -18,38 +18,37 @@ export default function SocialButtons({
 }: SocialButtonsProps) {
   return (
     <div className="flex gap-4  ">
-
       {GitHub && (
         <a
-        href="https://github.com/DavidCG5"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
-        aria-label="GitHub"
+          href="https://github.com/DavidCG5"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
+          aria-label="GitHub"
         >
-        <FaGithub />
+          <FaGithub />
         </a>
       )}
-      
+
       {LinkedIn && (
         <a
-        href="https://linkedin.com/in/david-felipe-cortes-cortes-a1aab1231/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
-        aria-label="LinkedIn"
+          href="https://linkedin.com/in/david-felipe-cortes-cortes-a1aab1231/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
+          aria-label="LinkedIn"
         >
-        <FaLinkedin />
+          <FaLinkedin />
         </a>
       )}
 
       {Email && (
         <a
-        href="mailto:dc317393@gmail.com"
-        className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
-        aria-label="Correo"
+          href="mailto:dc317393@gmail.com"
+          className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
+          aria-label="Correo"
         >
-        <MdEmail />
+          <MdEmail />
         </a>
       )}
 
@@ -64,7 +63,6 @@ export default function SocialButtons({
           <FaWhatsapp />
         </a>
       )}
-
     </div>
-  )
+  );
 }
