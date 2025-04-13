@@ -2,7 +2,7 @@
 
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaGitAlt,  } from 'react-icons/fa'
 import { SiTailwindcss, SiNextdotjs, SiTypescript, SiVuedotjs, SiBootstrap } from 'react-icons/si'
-import SocialButtons from './SocialButtons'
+
 
 export default function TechnologiesSection() {
   return (
@@ -60,9 +60,7 @@ export default function TechnologiesSection() {
             <span>Bootstrap</span>
           </div>
         </div>
-        <div className="flex justify-center mt-6">
-          <SocialButtons />
-        </div>
+       
       </div>
     </section>
   )

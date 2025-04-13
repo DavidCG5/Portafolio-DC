@@ -17,14 +17,14 @@ export default function SocialButtons({
   WhatsApp = true,
 }: SocialButtonsProps) {
   return (
-    <div className="flex gap-4 ">
+    <div className="flex gap-4  ">
 
       {GitHub && (
         <a
         href="https://github.com/DavidCG5"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white/80 hover:text-blue-400 text-2xl transition"
+        className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
         aria-label="GitHub"
         >
         <FaGithub />
@@ -36,7 +36,7 @@ export default function SocialButtons({
         href="https://linkedin.com/in/david-felipe-cortes-cortes-a1aab1231/"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white/80 hover:text-blue-400 text-2xl transition"
+        className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
         aria-label="LinkedIn"
         >
         <FaLinkedin />
@@ -46,7 +46,7 @@ export default function SocialButtons({
       {Email && (
         <a
         href="mailto:dc317393@gmail.com"
-        className="text-white/80 hover:text-blue-400 text-2xl transition"
+        className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
         aria-label="Correo"
         >
         <MdEmail />
@@ -58,7 +58,7 @@ export default function SocialButtons({
           href="https://wa.me/573016661724"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white/80 hover:text-blue-400 text-2xl transition"
+          className="text-white/80 hover:text-blue-400 text-2xl transition hover:scale-120"
           aria-label="WhatsApp"
         >
           <FaWhatsapp />

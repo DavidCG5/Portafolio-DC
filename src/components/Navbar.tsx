@@ -13,15 +13,13 @@ export default function Navbar() {
           alt="logo" 
           width={36} 
           height={36} 
-          className="rounded-full"
+          className="rounded-full hover:scale-105"
         />
-        <span className="text-lg font-semibold text-white/80">David Cortes</span>
+        <span className="text-lg font-semibold text-white/80 ">David Cortes</span>
       </div>
 
       <div >
-        <SocialButtons 
-          GitHub={false} 
-        />
+        <SocialButtons />
       </div>
     </nav>
   )
