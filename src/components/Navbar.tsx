@@ -18,7 +18,6 @@ export default function Navbar() {
         <span className="text-lg font-semibold text-white/80">David Cortes</span>
       </div>
 
-      
       <div >
         <SocialButtons 
           GitHub={false} 
