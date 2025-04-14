@@ -8,7 +8,7 @@ import FooterGlow from "@/components/FooterGlow";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portafolio de David",
+  title: "Portafolio | David Cortes",
   description: "Desarrollador Web - React, Next.js, Tailwind",
   icons: {
     icon: "/DavidCortesLogo.png",

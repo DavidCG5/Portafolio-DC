@@ -20,7 +20,7 @@ const ProjectCard = ({
   return (
     <div className="rounded-xl bg-gradient-to-b from-[#1A1A1D] to-[#0F0F10] overflow-hidden shadow-lg relative group transition-transform hover:scale-[1.015]">
       <div className="relative w-full h-52 sm:h-64">
-        <Image src={image} alt={title} layout="fill" objectFit="cover" />
+        <Image src={image} alt={title} fill style={{ objectFit: "cover" }} />
         {status === "en-desarrollo" && (
           <span className="absolute top-2 right-2 bg-yellow-500 text-black text-xs px-2 py-1 rounded-md font-bold">
             🛠 En Desarrollo
