@@ -13,19 +13,22 @@ export default function Navbar() {
     <>
       <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 px-6 py-3 w-[90%] max-w-4xl rounded-full backdrop-blur-md bg-white/5 shadow-[0_0_30px_rgba(6,2,255,0.2)] flex justify-between items-center">
         {/* Logo - visible solo en pantallas >= sm */}
-        <div className="items-center gap-3 hidden sm:flex ">
-          <Image
-            src="/DavidCortesLogo.png"
-            alt="logo"
-            width={36}
-            height={36}
-            className="rounded-full hover:scale-105 transition"
-          />
-          <span className="text-lg font-semibold text-white/80">
-            David Cortes
-          </span>
+        <div className="items-center gap-3 hidden sm:flex hover:scale-105 ">
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/DavidCortesLogo.png"
+              alt="logo"
+              width={36}
+              height={36}
+              className="rounded-full transition cursor-pointer"
+            />
+            <span className="text-lg font-semibold text-white/80">
+              David Cortes
+            </span>
+          </Link>
         </div>
 
+        {/* Logo - visible solo en pantallas < sm */}
         {/* Botón de menú - centrado en sm o menos */}
         <div className="sm:hidden flex ">
           <button
@@ -78,14 +81,22 @@ export default function Navbar() {
             <Link
               href="/"
               onClick={() => setMenuOpen(false)}
-              className="text-blue-400"
+              className="hover:text-blue-400"
             >
               Inicio
             </Link>
-            <Link href="/portafolio" onClick={() => setMenuOpen(false)}>
+            <Link
+              href="/portafolio"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-blue-400"
+            >
               Portafolio
             </Link>
-            <Link href="/sobremi" onClick={() => setMenuOpen(false)}>
+            <Link
+              href="/sobremi"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-blue-400"
+            >
               Sobre Mi
             </Link>
           </div>

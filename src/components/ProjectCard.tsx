@@ -18,7 +18,7 @@ const ProjectCard = ({
   status = "completo",
 }: ProjectCardProps) => {
   return (
-    <div className="rounded-xl bg-gradient-to-b from-[#1A1A1D] to-[#0F0F10] overflow-hidden shadow-lg relative group transition-transform hover:scale-[1.015]">
+    <div className="shadow-[0_0_60px_rgba(6,2,255,0.2)] rounded-xl bg-gradient-to-b from-[#1A1A1D] to-[#0F0F10]  overflow-hidden  relative group transition-transform hover:scale-[1.015]">
       <div className="relative w-full h-52 sm:h-64">
         <Image src={image} alt={title} fill style={{ objectFit: "cover" }} />
         {status === "en-desarrollo" && (

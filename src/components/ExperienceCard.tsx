@@ -6,7 +6,7 @@ export default function ExperienceCard() {
       id="experiencia"
       className="w-[90%] flex justify-center items-center px-4"
     >
-      <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-[0_0_60px_rgba(6,2,255,0.1)] p-8 max-w-4xl w-full text-white space-y-4 transition-all duration-300 ">
+      <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-[0_0_60px_rgba(6,2,255,0.2)] p-8 max-w-4xl w-full text-white space-y-4 transition-all duration-300 ">
         <h2 className="text-3xl font-bold text-blue-400">
           Experiencia Laboral
         </h2>

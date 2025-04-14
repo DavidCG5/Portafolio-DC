@@ -22,7 +22,7 @@ export default function TechnologiesSection() {
       id="tecnologias"
       className="w-full flex justify-center items-center px-4"
     >
-      <div className="w-[90%] max-w-4xl bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-[0_0_60px_rgba(6,2,255,0.1)] p-8 text-white space-y-6">
+      <div className="w-[90%] max-w-4xl bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-[0_0_60px_rgba(6,2,255,0.2)] p-8 text-white space-y-6">
         <h2 className="text-3xl font-bold text-blue-400">
           Tecnologías utilizadas y estudiadas
         </h2>
